@@ -1,0 +1,16 @@
+Algoritmo DivisionConValidacion
+	
+	Escribir "Ingrese el dividendo:"
+	Leer dividendo
+	
+	Escribir "Ingrese el divisor:"
+	Leer divisor
+	
+	Si divisor = 0 Entonces
+		Escribir "LoLa - Mento por 0 no se puede dividir. Okles."
+	Sino
+		resultado <- dividendo / divisor
+		Escribir "El resultado de la división es:", resultado
+	FinSi
+	
+FinAlgoritmo
